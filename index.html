@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+    <header class="w-full px-4 md:px-8 py-4 bg-white">
+  <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+    <div class="text-3xl font-semibold">
+      YtYt
+    </div>
+    <nav class="hidden md:flex items-center gap-8 text-gray-700 text-sm">
+      <a href="#" class="hover:text-black duration-300">Чему вы научитесь</a>
+      <a href="#" class="hover:text-black duration-300">Процесс обучения</a>
+      <a href="#" class="hover:text-black duration-300">Стоимость</a>
+      <a href="#" class="hover:text-black duration-300">Контакты</a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <a href="#" class="hidden sm:block text-sm text-gray-700">
+        Регистрация
+      </a>
+      <button class="bg-sky-400 hover:bg-sky-500 duration-300 text-white px-6 py-2 rounded-full text-sm">
+        Войти
+      </button>
+    </div>
+  </div>
+</header>
+<section class="relative overflow-hidden bg-[#f7f7fb] px-4 md:px-8 py-10 md:py-16">
+  <div class="absolute inset-0 opacity-40">
+    <div class="absolute w-[500px] h-[500px] border border-gray-200 rounded-full top-10 left-1/2 -translate-x-1/2"></div>
+    <div class="absolute w-[700px] h-[700px] border border-gray-200 rounded-full top-0 left-1/2 -translate-x-1/2"></div>
+    <div class="absolute w-[900px] h-[900px] border border-gray-200 rounded-full -top-20 left-1/2 -translate-x-1/2"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+    <div class="max-w-xl">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl leading-tight font-semibold text-[#22253B]">
+        Школа
+        <span class="text-orange-500">{</span>
+        <span class="italic">программирования</span>
+        <span class="text-orange-500">}</span>
+        <br>
+        для тех, кому нужны реальные навыки,
+        <br>
+        а не просто сертификат
+      </h1>
+      <div class="w-40 h-[2px] bg-gray-300 my-8"></div>
+      <p class="text-gray-600 text-lg leading-8 max-w-md">
+        Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам
+      </p>
+      <button class="mt-8 bg-orange-500 hover:bg-orange-600 duration-300 text-white px-8 py-5 rounded-full text-lg flex items-center gap-3">
+        Пройти тестирование
+        <span class="text-2xl">↗</span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <div class="w-full max-w-md h-[300px] sm:h-[400px] rounded-3xl flex items-center justify-center text-xl">
+        <img src="./Code.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>
